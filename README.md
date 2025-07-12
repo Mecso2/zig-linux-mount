@@ -6,9 +6,9 @@ It does not spawn child processes, it uses the modern linux mount api.
 info, warning and error messages are loged through std.log, in the `mount` scope and therefor you can set what level do you want to see through `std.option`
 ```zig
 pub const std_options: std.Options=.{
-	log_scope_levels=&.{
-		.{.scope=.mount, .level=.err},
-	}
+  log_scope_levels=&.{
+    .{.scope=.mount, .level=.err},
+  }
 };
 ```
 
