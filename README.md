@@ -24,7 +24,7 @@ try mount.mount("name", "/mountpoint", "overlay", &.{
     .{ "workdir", "/work" },
 }, &.{"ro", "relatime"});
 ```
-## Bind
+## bind
 ```sh
 mount /src /target --bind
 ```
