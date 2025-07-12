@@ -1,0 +1,7 @@
+.{
+    .name = .zig_linux_mount,
+    .version = "0.1.0",
+    .fingerprint = 0x70dd0ab8754af416,
+    .minimum_zig_version = "0.14.0",
+    .paths = .{""},
+}
